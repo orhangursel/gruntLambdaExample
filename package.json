@@ -1,0 +1,15 @@
+{
+  "name": "gruntLambda",
+  "version": "1.0.0",
+  "description": "Scrapes a page and saves links in a HTML page to S3",
+  "private": "true",
+   "dependencies": {
+       "node-uuid": "1.4.7"
+    },
+  "devDependencies": {
+      "grunt": "0.4.*",
+      "grunt-aws-lambda": "0.*.*"
+  },
+  "author": "",
+  "license": "BSD"
+}
